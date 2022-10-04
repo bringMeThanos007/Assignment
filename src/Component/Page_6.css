@@ -1,0 +1,121 @@
+:root{
+    --purple:#A020F0;
+    --matteBlack:	#28282B;
+    --platinum:#e5e4e2;
+    --light:lightslategray;
+  }
+.page_6{
+    
+    height: auto;
+    width: 100%;
+    background-color: var(--platinum);
+} 
+.page_6 .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 21vh;
+    padding-right: 21vh;
+} 
+@media(max-width:570px){
+    .page_6 .heading{
+        flex-direction: column;
+
+    } 
+}
+
+.page_6 .head_1{
+    margin-top: 20vh;
+    color: var(--matteBlack);
+}
+.page_6 .head_1 p{
+    color: var(--light);
+    font-size: 1rem;
+}
+
+.page_6 .head_2{
+    margin-top: 20vh;
+}
+@media(max-width:770px){
+    .page_6 .head_2 .btn{
+            font-size: 1rem;
+    }
+}
+.page_6 .head_2 .btn{
+    background-color: white;
+    color: var(--purple);
+    border-radius: 0px;
+}
+.page_6 .head_2 .btn:hover{
+    background-color: var(--purple);
+    color: whitesmoke;
+}
+
+
+/* box */
+.page_6 .col-md-4{
+}
+/* box  */
+.page_6 .box{
+    padding: 20px;
+    justify-items: center;
+    border: 1px solid var(--light);
+    background-color: white;
+    border-radius: 10px;
+    color: var(--matteBlack);
+    
+    
+}
+.page_6 .box p{
+    color: var(--light)   ;
+    margin: 0px;
+    font-size: 0.7rem;
+}
+
+/* boxes */
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.boxes p{
+    color: var(--light);
+    font-size: 0.7rem;
+}
+
+/* badges */
+.badge{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+@media(max-width:985px){
+    .badge{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+.page_6 .box .btn{
+    background-color: var(--purple);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 0px;
+    margin-top: 10px;
+    border: 2px solid var(--purple);
+}
+.page_6 .box .btn:hover{
+    background-color: whitesmoke;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+}
+.page_6 .container{
+    padding: 5%;
+    padding-top: 1%;
+}

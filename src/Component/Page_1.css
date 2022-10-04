@@ -1,0 +1,75 @@
+:root{
+  --purple:#A020F0;
+  --matteBlack:	#28282B;
+}
+body{
+    height: 100vh;
+    width: 100%;
+      /* background 1 */
+  /* background: #42275a; 
+  background: -webkit-linear-gradient(to right, #734b6d, #42275a);  
+  background: linear-gradient(to right, #734b6d, #42275a);  */
+
+  /* background 2 */
+  /* background: #7F00FF; 
+background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  
+background: linear-gradient(to left, #E100FF, #7F00FF); */
+
+}
+.page_1{
+height: auto;
+position: relative;
+}
+
+/*  */
+.container{
+  margin-top: 70px;
+  padding-bottom: 20vh;
+ }
+ #section_1 {
+     display: flex;
+     justify-content: end;
+     padding: 20px;
+ }
+
+.intro {
+  align-self: end;
+  color: whitesmoke;
+}
+
+.intro h1 {
+  text-align: start;
+  text-shadow: 1px 1px 1px var(--a_link);
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 10px grey;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  text-align: start;
+  text-shadow: 1px 1px 10px grey;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+.intro .btn{
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  transition: all 1s;
+  box-shadow: 1px 1px 3px grey;
+}
+.intro .btn:hover{
+  background-color: whitesmoke;
+  color: var(--purple);
+}
+
+/* section 2 */
+#section_2 {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.icons{
+color: whitesmoke;
+}
+

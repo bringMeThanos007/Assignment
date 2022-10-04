@@ -1,0 +1,31 @@
+:root{
+    --purple:#A020F0;
+  }
+/* border
+.border{
+    margin-top: 60px;
+    border: 10px solid green;
+} */
+
+.nav-link{
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: ghostwhite;
+    color: var(--purple);
+}
+.borderDiv{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.borderDivision{
+    background-color: whitesmoke;
+    /* margin-top: 60px; */
+    border: 1px ridge white;
+}
+.nav-item h2{
+    color: whitesmoke;
+    padding: 10px;
+}

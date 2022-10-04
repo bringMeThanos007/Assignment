@@ -1,0 +1,36 @@
+:root{
+    --purple:#A020F0;
+    --matteBlack:	#28282B;
+    --platinum:#e5e4e2;
+    --light:lightslategray;
+  }
+.div{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin-top: -9vh;
+   display: flex;
+   justify-content: center;
+}  
+.cont{
+    width: auto;
+     background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 9px grey;
+}
+@media(max-width:450px){
+    .cont{
+        flex-direction: column;
+    }
+
+}
+
+.cont .btn{
+    margin: 2.5vh;
+    background-color: var(--platinum);
+    border: 2px solid var(--platinum);
+    color:var(--matteBlack);
+}

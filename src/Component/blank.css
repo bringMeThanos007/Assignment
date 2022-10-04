@@ -1,0 +1,9 @@
+:root{
+    --purple:#A020F0;
+  }
+.blank{
+    background-color: whitesmoke;
+    height: 20vh;
+    width: 100%;
+
+} 

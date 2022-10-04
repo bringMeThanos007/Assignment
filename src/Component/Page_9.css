@@ -1,0 +1,33 @@
+:root{
+    --purple:#A020F0;
+    --matteBlack:	#28282B;
+    --platinum:#e5e4e2;
+    --light:lightslategray;
+  }
+.page_9{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-left: 21vh;
+    padding-right: 21vh;
+    padding-top: 20vh;
+} 
+@media(max-width:700px){
+  .page_9{
+    padding-left: 0px;
+    padding-right: 0px;
+} 
+}
+.page_9 .heading{
+  padding-bottom: 10vh;
+}
+.page_9 .heading h1{
+    text-align: center;
+    color: var(--matteBlack);
+}
+.page_9 .heading p{
+    text-align: center;
+    color: var(--light);
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

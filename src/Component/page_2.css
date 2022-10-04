@@ -1,0 +1,46 @@
+:root{
+    --purple:#A020F0;
+    --matteBlack:	#28282B;
+    --platinum:#e5e4e2;
+    --light:lightslategray;
+  }
+.page_2{
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    padding: 20vh;
+    margin: 0;
+}
+@media(max-width:700px){
+  .page_2{
+    padding: 0px;
+    margin: 0;
+} 
+}
+.page_2 h1{
+  text-align: center;
+  color: 	var(--matteBlack);
+}  
+.number h1{
+  height: 100px;
+  width: 100px;
+  border: 1px solid var(--purple);
+  background-color: var(--purple);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  
+}
+
+.number p{
+  color: var(--light);
+  font-size: 0.7rem;
+}
+.number h6{
+  color: var(--purple);
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+}

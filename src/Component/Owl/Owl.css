@@ -1,0 +1,29 @@
+:root{
+    --purple:#A020F0;
+    --matteBlack:	#28282B;
+    --platinum:#e5e4e2;
+    --light:lightslategray;
+  }
+.owl{
+  margin-bottom: 10vh;
+}
+@media(max-width:700px){
+  .owl{
+    padding :30px;
+  } 
+}  
+.owlSlide{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.owlSlide img{
+  padding: 10px;
+}
+.owlSlide p{
+  margin: 5px;
+}
+.owlSlide h6{
+  margin: 5px;
+}
